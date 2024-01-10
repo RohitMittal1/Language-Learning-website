@@ -1,0 +1,92 @@
+body{
+    background-image: url('blur.png');
+    background-size: cover;
+}
+.main_div{
+    display: flex;
+    color:white;
+}
+.logo_main{
+    width: 60px;
+    margin-left: 15px;
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding-left: 850px;
+    margin-top: 15px;
+    font-size: 120%;
+    font-weight: 800;
+    background-color: black;
+}
+.head{
+    display: flex;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.plan{
+    text-decoration: none;
+    color: white;
+}
+.plan:hover{
+    color: red;
+    cursor: pointer;
+}
+.about{
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 80px;
+    font-size: 17px;
+    font-weight: 600;
+}
+.para{
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form{
+    background-color: black;
+    height: 380px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 250px;
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 100px;
+}
+.form_para{
+    margin-top: 35px;
+    margin-left: 25px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.lab{
+    padding: 60px;
+}
+.lab2{
+    padding-left: 100px;
+}
+.First{
+    margin-left: 50px;
+}
+.lab3{
+    padding-left: 200px;
+}
+.mail{
+    margin-left: 130px;
+    padding-left: 50px;
+}
+.button{
+    margin-left: 220px;
+    margin-top: 35px;
+    height: 30px;
+    background-color: red;
+    color: white;
+}

@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign.css">
+    <title>Document</title>
+</head>
+<body >
+    <div class="signup" id="page">
+        <h1>Sign Up</h1>
+        <h4>It's free and only takes a minute</h4>
+        <form>
+            <label>First Name</label>
+            <input id="name" placeholder="" style="width: 400px;">
+
+            <label>Last Name</label>
+            <input id="lastname" placeholder="" style="width: 400px;">
+
+            <label>Email-id</label>
+            <input type="email" placeholder="" style="width: 400px;">
+
+            <label>Password</label>
+            <input type="password" id="password" placeholder="" style="width: 400px;">
+
+            <label>Confirm Password</label>
+            <input type="password" id="confirmPassword" placeholder="" style="width: 400px;">
+
+            <button onclick="checkPassword()" class="b1"><a href="okokokok.html" class="link" >Submit</a></button>
+        </form>
+        </div>
+
+        <script>
+            function checkPassword() {
+                var firstname = document.getElementById('name').value
+                var lastname = document.getElementById('lastname').value
+                var password = document.getElementById('password').value;
+                var confirmPassword = document.getElementById('confirmPassword').value;
+                
+    
+                if (password !== confirmPassword) {
+                    alert('Passwords do not match!');
+                    window.close();
+                    return false;
+                }
+                alert('Hello'+' ' + firstname +' '+ lastname + '   '+'You have successfully signed up!')
+                return true;
+            }
+        </script>
+</body>
+</html> 
+
+
+
+ 
+
+ 
+  
+  

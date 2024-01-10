@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+    color:blue;
+    font-style:italic;
+    font-size: 35px;
+    font-style: unset;
+    font-weight: 800
+}
+p{
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-family: cursive;
+    display: block;
+}
+.newimg img{
+    height:200px;
+    width:200px;
+}
+.newimg h1{
+    background-color: darkgray;
+}

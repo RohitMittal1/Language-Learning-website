@@ -1,0 +1,58 @@
+body{
+    background-image: url(blur.png);
+    background-size: cover;
+    font-family: 'Roboto',sans-serif;
+}
+.signup {
+    width:460px;
+    height:520px;
+    margin-left: 450px;
+    margin-top: 60px;
+    background-color: white;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+form input{
+    width:100%;
+    padding: px;
+    border:none;
+    border:1px solid gray;
+    border-radius: 4px;
+    outline: none;
+}
+button{
+    width:320px;
+    height:35px;
+    margin-top: 20px;
+    border: none;
+    background-color: aqua;
+    color: white;
+    font-size: 18px;
+}
+.b1{
+    border-radius: 15px;
+    background-color: back;
+    margin-left: 40px;
+    background-color: black;
+    font-size: 700;
+}
+.link{
+    color: white;
+    text-decoration: none;
+}
